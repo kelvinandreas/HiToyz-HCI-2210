@@ -1,0 +1,976 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+/* Kelvin Andreas - 2602121794 */
+body {
+  margin: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  background-color: #29335c;
+  align-items: center;
+  text-align: center;
+  height: 139px;
+}
+
+#logoImage {
+  width: 358px;
+  height: 122px;
+}
+
+#navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #29335c;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbarLogo {
+  width: 165px;
+  height: 56px;
+}
+
+#navbarText {
+  display: flex;
+  flex-direction: row;
+  margin: 13px;
+  align-items: center;
+}
+
+.navbarTextItem {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px 20px;
+}
+
+#registerUsButtonText {
+  background-color: #4ec9b6;
+  font-weight: 800;
+  border-radius: 60px;
+  padding: 1vh 3vh;
+  display: inline-block;
+  color: black;
+}
+
+#content {
+  margin: 20px 0px 20px 0px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.garisPembatasSection {
+  width: 100%;
+  height: 0px;
+  border: 2px solid #f23232;
+}
+
+#homePage1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: 100%;
+  align-items: center;
+}
+
+#homePage1Robot {
+  width: 70%;
+  height: 90%;
+  margin-left: 20%;
+}
+
+#homePage1Text {
+  text-align: left;
+  margin: 15vh 0vh;
+}
+
+#welcomeText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.welcomeTextContent {
+  margin: 0px;
+  text-align: center;
+}
+
+#HIToyzText {
+  color: #f23232;
+}
+
+#listButton {
+  display: flex;
+  flex-direction: row;
+  margin: 0vh 5vh;
+}
+
+.buttonGoToSection {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+  margin: 23px 12px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#goToHistory {
+  padding: 18px 12px;
+  background: #4ec9b6;
+}
+
+#goToTagline {
+  padding: 18px 57px;
+  background: #ffc216;
+}
+
+#goToPopular {
+  padding: 18px 37px;
+  background: #8cc9e7;
+}
+
+#homePage2 {
+  background-image: url("/Assets/HomeAssets/backgroundHomePage2.png");
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+}
+
+.pageTitle {
+  color: #29335c;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+#backgroundDescription {
+  margin: 0px 100px 20px 100px;
+}
+
+.backgroundDescriptionText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  text-indent: 50px;
+}
+
+#garisPembatasBackground {
+  width: 91%;
+  height: 0px;
+  border: 1px solid;
+}
+
+#officialResellerText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  align-items: center;
+  text-align: center;
+  margin: 15px 0;
+}
+
+#officialResellerLogo {
+  width: 593px;
+  height: 87px;
+}
+
+#homePage3 {
+  background-image: url("/Assets/HomeAssets/backgroundHomePage3.png");
+  background-size: cover;
+  height: 100%;
+  text-align: center;
+}
+
+#taglineText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 68px;
+  text-align: center;
+  background: #01b9e4;
+  border-radius: 50px;
+  height: 120px;
+  margin: 150px 150px 0px 150px;
+  padding-top: 50px;
+}
+
+#taglineDesc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 150px;
+}
+
+#TaglineToyPicture {
+  width: 1031.18px;
+  height: 273.74px;
+}
+
+#homePage4 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#listProduct {
+  background-color: #29335c;
+  border-radius: 40px;
+  width: 870px;
+  height: 555px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.productRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.productCard {
+  width: 380px;
+  height: 502px;
+  background: #ffffff;
+  border-radius: 40px;
+  margin: 25px 28px 25px 28px;
+}
+
+.productCardContent {
+  margin: 13px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.divProductImage {
+  text-align: center;
+  width: 100%;
+  height: 30%;
+}
+
+.productCardImage {
+  width: 276px;
+  height: 210px;
+  margin-top: 17px;
+}
+
+.divProductText {
+  text-align: left;
+  width: 100%;
+  height: 30%;
+}
+
+.garis {
+  margin: 0;
+}
+
+.productCardTextTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+
+.productCardTextPrice {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+
+.productCardTextDesc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0;
+  text-align: justify;
+}
+
+.divProductButton{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.button {
+  background: #ffc216;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 4em;
+}
+
+.productCardBuyButton {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 40%;
+}
+
+#seeMoreButton {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  background: #ffc216;
+  border-radius: 20px;
+  padding: 5px 17px;
+  margin: 5% 0%;
+  color: black;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #29335c;
+  margin-top: 93px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footerTextLeft {
+  margin: 15px 0px 20px 30px;
+}
+
+#footerTextLeftContentTitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+}
+
+#footerTextLeftContentText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 1px;
+}
+
+#footerTextCenter {
+  margin: 15px;
+  margin-left: 5%;
+}
+
+#footersocmedIcon {
+  display: flex;
+  flex-direction: row;
+}
+.footerText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+.socmedIcon {
+  margin: 13px;
+  width: 24px;
+  height: 24px;
+}
+
+#footerTextRight {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1272px) {
+  .buttonGoToSection {
+    font-size: 13px;
+  }
+
+  .pageTitle {
+    font-size: 50px;
+  }
+
+  .backgroundDescriptionText {
+    font-size: 14px;
+  }
+
+  #officialResellerText {
+    font-size: 26px;
+  }
+
+  #officialResellerLogo {
+    width: 493px;
+    height: 67px;
+  }
+
+  #taglineText {
+    font-size: 48px;
+    height: 80px;
+    padding-top: 20px;
+    margin: 150px 290px 0px 290px;
+  }
+
+  #taglineDesc {
+    font-size: 15px;
+  }
+
+  #TaglineToyPicture {
+    width: 750px;
+    height: 250px;
+  }
+
+  #seeMoreButton {
+    font-size: 20px;
+    padding: 5px 17px;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .buttonGoToSection {
+    font-size: 12px;
+  }
+
+  #taglineText {
+    font-size: 38px;
+    height: 60px;
+    padding-top: 20px;
+    margin: 150px 290px 0px 290px;
+  }
+
+  #taglineDesc {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1186px) {
+  #welcomeText {
+    font-size: 50px;
+  }
+
+  .buttonGoToSection {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  #welcomeText {
+    font-size: 45px;
+  }
+
+  .buttonGoToSection {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  #welcomeText {
+    font-size: 45px;
+  }
+
+  .buttonGoToSection {
+    font-size: 16px;
+    margin: 19px 12px;
+  }
+
+  #listButton {
+    flex-direction: column;
+  }
+
+  #homePage1Text {
+    margin: 0vh;
+  }
+
+  #homePage1 {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 1085px) {
+  #welcomeText {
+    font-size: 35px;
+  }
+
+  #taglineText {
+    font-size: 30px;
+    height: 55px;
+    margin: 150px 220px 0px 220px;
+  }
+
+  #taglineDesc {
+    font-size: 13px;
+  }
+
+  .productCardBuyButton {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 905px) {
+  #welcomeText {
+    font-size: 25px;
+  }
+
+  .buttonGoToSection {
+    font-size: 11px;
+  }
+
+  .pageTitle {
+    font-size: 40px;
+  }
+
+  .backgroundDescriptionText {
+    font-size: 13px;
+  }
+
+  #officialResellerText {
+    font-size: 23px;
+  }
+
+  #officialResellerLogo {
+    width: 433px;
+    height: 57px;
+  }
+
+  #taglineText {
+    font-size: 30px;
+    height: 50px;
+    margin: 150px 150px 0px 150px;
+  }
+
+  #taglineDesc {
+    font-size: 12px;
+  }
+
+  #TaglineToyPicture {
+    width: 650px;
+    height: 180px;
+  }
+
+  #listProduct {
+    width: 650px;
+    height: 415px;
+  }
+
+  .productCard {
+    width: 280px;
+    height: 362px;
+    margin: 25px 28px 25px 28px;
+  }
+
+  .productCardContent {
+    margin: 13px;
+  }
+
+  .productCardImage {
+    width: 176px;
+    height: 110px;
+    margin-top: 17px;
+  }
+
+  .productCardTextTitle {
+    font-size: 15px;
+  }
+
+  .productCardTextPrice {
+    font-size: 13px;
+  }
+
+  .productCardTextDesc {
+    font-size: 10px;
+  }
+
+  .productCardBuyButton {
+    font-size: 20px;
+    margin-left: 42%;
+  }
+
+  .button {
+    height: 3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #logoImage {
+    width: 35vh;
+    height: 15vh;
+  }
+
+  #footerTextLeft {
+    margin: 15px 0px 10px 10px;
+  }
+
+  #footerTextLeftContentTitle {
+    font-size: 11px;
+  }
+
+  #footerTextLeftContentText {
+    font-size: 9px;
+  }
+
+  #footerTextCenter {
+    margin: 15px 25px;
+  }
+
+  .footerText {
+    font-size: 13px;
+  }
+
+  .socmedIcon {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  #footerTextRight {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  #taglineText {
+    font-size: 22px;
+  }
+
+  #taglineDesc {
+    margin: 20px 100px;
+  }
+
+  #TaglineToyPicture {
+    width: 550px;
+    height: 140px;
+  }
+
+  #listProduct {
+    width: 550px;
+    height: 425px;
+  }
+
+  .productCard {
+    width: 230px;
+    height: 374px;
+  }
+
+  .productCardBuyButton {
+    font-size: 18px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #homePage1Robot {
+    display: none;
+  }
+
+  #welcomeText {
+    font-size: 30px;
+  }
+
+  .buttonGoToSection {
+    font-size: 14px;
+  }
+
+  #backgroundDescription {
+    margin: 0px 30px 20px 30px;
+  }
+
+  #officialResellerLogo {
+    width: 333px;
+    height: 47px;
+  }
+
+  #taglineText {
+    font-size: 25px;
+    height: 50px;
+    margin: 150px 50px 0px 50px;
+  }
+
+  #taglineDesc {
+    font-size: 11px;
+    margin: 20px 50px;
+  }
+
+  #TaglineToyPicture {
+    width: 400px;
+    height: 120px;
+  }
+
+  #listProduct {
+    width: 420px;
+    height: 1060px;
+  }
+
+  .productRow {
+    flex-direction: column;
+  }
+
+  .productCard {
+    width: 380px;
+    height: 480px;
+  }
+
+  .productCardImage {
+    width: 276px;
+    height: 210px;
+    margin-top: 17px;
+  }
+
+  .productCardTextTitle {
+    font-size: 18px;
+  }
+
+  .productCardTextPrice {
+    font-size: 16px;
+  }
+
+  .productCardTextDesc {
+    font-size: 13px;
+  }
+
+  .productCardBuyButton {
+    font-size: 24px;
+    height: 50px;
+  }
+
+  #footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pageTitle {
+    font-size: 30px;
+  }
+
+  #taglineText {
+    font-size: 20px;
+  }
+
+  #listProduct {
+    width: 350px;
+    height: 1160px;
+  }
+
+  .productCard {
+    width: 320px;
+    height: 520px;
+  }
+
+  .productCardBuyButton {
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .navbarTextItem {
+    font-size: 12px;
+  }
+  
+  #welcomeText {
+    font-size: 28px;
+  }
+
+  .buttonGoToSection {
+    font-size: 13px;
+  }
+
+  #pageTitle {
+    font-size: 34px;
+  }
+
+  #taglineText {
+    font-size: 19px;
+    height: 45px;
+  }
+
+  #TaglineToyPicture {
+    width: 350px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 357px) {
+  .navbarTextItem {
+    font-size: 11px;
+  }
+
+  #pageTitle {
+    font-size: 30px;
+  }
+
+  #officialResellerLogo {
+    width: 283px;
+    height: 37px;
+  }
+
+  #taglineText {
+    font-size: 21px;
+    height: 50px;
+    margin: 150px 20px 0px 20px;
+  }
+
+  #TaglineToyPicture {
+    width: 300px;
+    height: 80px;
+  }
+
+  #listProduct {
+    width: 290px;
+    height: 1130px;
+  }
+
+  .productCard {
+    width: 260px;
+    height: 515px;
+  }
+
+  .productCardImage {
+    width: 236px;
+    height: 190px;
+    margin-top: 17px;
+  }
+
+  .productCardBuyButton {
+    font-size: 22px;
+    height: 40px;
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    height: 100px;
+  }
+
+  #logoImage {
+    width: 25vh;
+    height: 10vh;
+  }
+
+  #navbarText {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .navbarTextItem {
+    font-size: 13px;
+    margin: 10px;
+  }
+
+  #registerUsButtonText {
+    margin: 0px 0px 10px 0px;
+  }
+
+  #pageTitle {
+    font-size: 25px;
+  }
+
+  #officialResellerText {
+    font-size: 18px;
+  }
+
+  #officialResellerLogo {
+    width: 183px;
+    height: 27px;
+  }
+
+  #taglineText {
+    font-size: 18px;
+    height: 40px;
+    margin: 150px 20px 0px 20px;
+  }
+
+  #TaglineToyPicture {
+    width: 250px;
+    height: 70px;
+  }
+
+  #listProduct {
+    width: 250px;
+    height: 1020px;
+  }
+
+  .productCard {
+    width: 230px;
+    height: 460px;
+  }
+
+  .productCardImage {
+    width: 216px;
+  }
+
+  .productCardTextTitle {
+    font-size: 15px;
+  }
+
+  .productCardTextPrice {
+    font-size: 13px;
+  }
+
+  .productCardTextDesc {
+    font-size: 10px;
+  }
+
+  .productCardBuyButton {
+    font-size: 20px;
+    height: 50px;
+  }
+}

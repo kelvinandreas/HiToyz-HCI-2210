@@ -1,0 +1,608 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+/* Kelvin Andreas - 2602121794 */
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  background-color: #29335c;
+  align-items: center;
+  text-align: center;
+  height: 139px;
+}
+
+#logoImage {
+  width: 358px;
+  height: 122px;
+}
+
+#navbar {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #29335c;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbarLogo {
+  width: 165px;
+  height: 56px;
+}
+
+#navbarText {
+  display: flex;
+  flex-direction: row;
+  margin: 13px;
+  align-items: center;
+}
+
+.navbarTextItem {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0px 20px;
+}
+
+#registerUsButtonText {
+  background-color: #4ec9b6;
+  font-weight: 800;
+  border-radius: 60px;
+  padding: 1vh 3vh;
+  display: inline-block;
+  color: black;
+}
+
+#content {
+  margin: 0px 0px 20px 0px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#pageTitle {
+  color: #29335c;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+}
+
+#listProduct {
+  background-color: #29335c;
+  border-radius: 40px;
+  width: 1300px;
+  height: 1070px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.productRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.productCard {
+  width: 380px;
+  height: 482px;
+  background: #ffffff;
+  border-radius: 40px;
+  margin: 25px 28px 25px 28px;
+}
+
+.productCardContent {
+  margin: 13px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.divProductImage {
+  text-align: center;
+  width: 100%;
+  height: 30%;
+}
+
+.productCardImage {
+  width: 276px;
+  height: 210px;
+  margin-top: 17px;
+}
+
+.divProductText {
+  text-align: left;
+  width: 100%;
+  height: 8em;
+}
+
+.garis {
+  margin: 0;
+}
+
+.productCardTextTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0;
+}
+
+.productCardTextPrice {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+
+.productCardTextDesc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0;
+  text-align: justify;
+}
+
+.divProductButton{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.button {
+  background: #ffc216;
+  border-radius: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 54px;
+}
+
+.productCardBuyButton {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 40%;
+}
+
+#footer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #29335c;
+  margin-top: 93px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footerTextLeft {
+  margin: 15px 0px 20px 30px;
+}
+
+#footerTextLeftContentTitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+}
+
+#footerTextLeftContentText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  margin: 1px;
+}
+
+#footerTextCenter {
+  margin: 15px;
+  margin-left: 5%;
+}
+
+#footersocmedIcon {
+  display: flex;
+  flex-direction: row;
+}
+
+.footerText {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+.socmedIcon {
+  margin: 13px;
+  width: 24px;
+  height: 24px;
+}
+
+#footerTextRight {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1310px) {
+  #listProduct {
+    width: 1060px;
+    height: 1040px;
+  }
+
+  .productCard {
+    width: 300px;
+    height: 470px;
+    margin: 25px 28px 25px 28px;
+  }
+
+  .productCardContent {
+    margin: 13px;
+  }
+
+  .productCardImage {
+    width: 206px;
+    height: 150px;
+    margin-top: 17px;
+  }
+
+  .divProductText {
+    margin: 34px 0px 0 0px;
+  }
+
+  .productCardTextTitle {
+    font-size: 18px;
+  }
+
+  .productCardTextPrice {
+    font-size: 15px;
+  }
+
+  .productCardTextDesc {
+    font-size: 13px;
+  }
+
+  .divProductButton{
+    margin-top: 20%;
+  }
+
+  .productCardBuyButton {
+    font-size: 24px;
+    width: 220px;
+    height: 50px;
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+
+  #listProduct {
+    width: 850px;
+    height: 970px;
+  }
+
+  .productCardTextTitle {
+    font-size: 15px;
+  }
+
+  .productCardTextPrice {
+    font-size: 12px;
+  }
+
+  .productCardTextDesc {
+    font-size: 10px;
+  }
+
+  .divProductButton{
+    margin-top: 10%;
+  }
+
+  .productCard {
+    width: 230px;
+    height: 435px;
+  }
+
+  .divProductButton{
+    height: 50%;
+  }
+
+  .button{
+    height: 45px;
+  }
+
+  .productCardBuyButton {
+    font-size: 18px;
+    width: 200px;
+    height: 45px;
+    margin-left: 41%;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  #listProduct {
+    width: 720px;
+    height: 880px;
+  }
+
+  .productCard {
+    width: 190px;
+    height: 400px;
+    margin-bottom: 0;
+  }
+
+  .productCardImage {
+    width: 156px;
+    height: 130px;
+    margin-top: 17px;
+  }
+
+  .button{
+    height: 40px;
+  }
+
+  .productCardBuyButton {
+    font-size: 16px;
+    width: 140px;
+    height: 45px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #listProduct {
+    width: 420px;
+    height: 3120px;
+  }
+
+  .productRow {
+    flex-direction: column;
+  }
+
+  .productCard {
+    width: 380px;
+    height: 490px;
+  }
+
+  .productCardImage {
+    width: 276px;
+    height: 210px;
+    margin-top: 17px;
+  }
+
+  .divProductButton{
+    margin-top: 10px;
+  }
+
+  .productCardTextTitle {
+    font-size: 18px;
+  }
+
+  .productCardTextPrice {
+    font-size: 16px;
+  }
+
+  .productCardTextDesc {
+    font-size: 13px;
+  }
+
+  .button{
+    height: 48px;
+  }
+
+  .productCardBuyButton {
+    font-size: 24px;
+    width: 330px;
+    height: 50px;
+  }
+
+  #logoImage {
+    width: 35vh;
+    height: 15vh;
+  }
+
+  #footerTextLeft {
+    margin: 15px 0px 10px 10px;
+  }
+
+  #footerTextLeftContentTitle {
+    font-size: 11px;
+  }
+
+  #footerTextLeftContentText {
+    font-size: 9px;
+  }
+
+  #footerTextCenter {
+    margin: 15px 25px;
+  }
+
+  .footerText {
+    font-size: 13px;
+  }
+
+  .socmedIcon {
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+  }
+
+  #footerTextRight {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #pageTitle {
+    font-size: 44px;
+  }
+
+  #listProduct {
+    width: 350px;
+    height: 3355px;
+  }
+
+  .productCard {
+    width: 320px;
+    height: 530px;
+  }
+
+  .divProductButton{
+    margin-top: 55px;
+  }
+
+  .productCardBuyButton {
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .navbarTextItem {
+    font-size: 12px;
+  }
+
+  #pageTitle {
+    font-size: 34px;
+  }
+
+  #listProduct {
+    width: 290px;
+    height: 3355px;
+  }
+
+  .productCard {
+    width: 260px;
+    height: 530px;
+  }
+
+  .productCardImage {
+    width: 236px;
+    height: 190px;
+    margin-top: 17px;
+  }
+
+  .divProductButton{
+    margin-top: 70px;
+  }
+
+  .productCardBuyButton {
+    font-size: 22px;
+    width: 230px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 357px) {
+  .navbarTextItem {
+    font-size: 11px;
+  }
+
+  #pageTitle {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    height: 100px;
+  }
+
+  #navbarText {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .navbarTextItem {
+    font-size: 13px;
+    margin: 10px;
+  }
+
+  #registerUsButtonText {
+    margin: 0px 0px 10px 0px;
+  }
+
+  #logoImage {
+    width: 25vh;
+    height: 10vh;
+  }
+
+  #listProduct {
+    width: 250px;
+    height: 3025px;
+  }
+
+  .productCard {
+    width: 230px;
+    height: 475px;
+  }
+
+  .productCardImage {
+    width: 216px;
+  }
+
+  .productCardTextTitle {
+    font-size: 15px;
+  }
+
+  .productCardTextPrice {
+    font-size: 13px;
+  }
+
+  .productCardTextDesc {
+    font-size: 10px;
+  }
+
+  .divProductButton{
+    margin-top: 20px;
+  }
+
+  .productCardBuyButton {
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+  }
+}

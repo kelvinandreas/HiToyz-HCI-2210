@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Us Page</title>
+    <link rel="stylesheet" href="/CSS/registerUsPageStyle.css" />
+  </head>
+  <body>
+    <header><img src="/Assets/logoHiToyz.png" id="logoImage" /></header>
+    <nav id="navbar">
+      <div id="navbarText">
+        <a href="./homePage.html" class="navbarTextItem">Home</a>
+        <a href="./productsPage.html" class="navbarTextItem">Products</a>
+        <a href="./galleryPage.html" class="navbarTextItem">Gallery</a>
+        <a href="./eventPage.html" class="navbarTextItem">Event</a>
+      </div>
+      <a href="./registerUsPage.html" class="navbarTextItem">
+        <p id="registerUsButtonText">Register Us</p>
+      </a>
+    </nav>
+    <div id="content">
+      <h1 id="pageTitle">REGISTER US</h1>
+      <div id="registerModal">
+        <p id="modalTitle">Register Your Account</p>
+        <hr id="lineModal" />
+        <div class="inputData">
+          <label for="inputName" class="inputDataLabel">Name</label>
+          <input type="text" name="" class="inputDataBox" id="inputName" />
+        </div>
+        <div class="inputData">
+          <label for="inputPassword" class="inputDataLabel">Password</label>
+          <input
+            type="password"
+            name=""
+            class="inputDataBox"
+            id="inputPassword"
+          />
+        </div>
+        <div class="inputData">
+          <label for="inputEmail" class="inputDataLabel">Email</label>
+          <input type="text" name="" class="inputDataBox" id="inputEmail" />
+        </div>
+        <div class="inputData">
+          <label for="inputDate" class="inputDataLabel">Date of birth</label>
+          <input type="date" name="" class="inputDataBox" id="inputDate" />
+        </div>
+        <div id="inputDataCheckBox">
+          <input type="checkbox" name="" id="inputCheckBox" />
+          <label for="inputCheckBox" id="inputCheckBoxLabel"
+            >I agree to the regulations</label
+          >
+        </div>
+        <input
+          type="button"
+          value="Register"
+          onclick="validateRegister()"
+          id="registerButton"
+        />
+      </div>
+    </div>
+    <footer id="footer">
+      <div id="footerTextLeft">
+        <p class="footerText">Consumer Complaint Services</p>
+        <div id="footerTextLeftContent">
+          <p id="footerTextLeftContentTitle">Hi-Toyz Store</p>
+          <p id="footerTextLeftContentText">
+            Antony Main Street<br />
+            Anytown, State Cityville, Stateville Inframerca 90123, United States
+            of America<br />
+            HiToyzLapor@gmail.com / 021-2321-4343
+          </p>
+        </div>
+      </div>
+      <div id="footerTextCenter">
+        <p class="footerText">Follow Us</p>
+        <div id="footersocmedIcon">
+          <a href=""
+            ><img src="/Assets/SocmedIcon/Facebook.png" class="socmedIcon"
+          /></a>
+          <a href=""
+            ><img src="/Assets/SocmedIcon/Twitter.png" class="socmedIcon"
+          /></a>
+          <a href=""
+            ><img src="/Assets/SocmedIcon/Instagram.png" class="socmedIcon"
+          /></a>
+        </div>
+      </div>
+      <div id="footerTextRight">
+        <p class="footerText">
+          Copyright © 2023 HI-Toyz Toy Store. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="/JavaScript/registerUsScript.js"></script>
+  </body>
+</html>
+<!-- Kelvin Andreas - 2602121794 -->
